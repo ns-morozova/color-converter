@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 100vh;
+    font-size: 14px;
+}
+
+.text {
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: linear-gradient(60deg, red, yellow, blue, orange);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    outline: none;
+}
+
+.displayInfo {
+    padding: 10px;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    background: white;
+}
+
+.error {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px rgb(133, 0, 0) solid;
+    background: rgb(133, 0, 0);
+}
